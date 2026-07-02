@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import "../styles/global.css";
+
+const recettes = await getCollection("recettes");
+recettes.sort((a, b) => a.data.titre.localeCompare(b.data.titre, "fr"));
+---
+
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fiches Recettes</title>
+    </head>
+    <body>
+        <div class="nav-barre">
+            <h1>📋 Fiches Recettes</h1>
+            <nav>
+                <a href="/" class="active">Toutes les recettes</a>
+                <a href="/impression">🖨 Version impression</a>
+            </nav>
+        </div>
+
+        <div class="conteneur">
+            <div class="index-hero">
+                <h1>Fiches Recettes</h1>
+                <p>{recettes.length} recettes</p>
+            </div>
+
+            <div class="index-grille">
+                {
+                    recettes.map((recette) => (
+                        <a
+                            class="index-carte"
+                            href={`/impression#${recette.slug}`}
+                        >
+                            <div class="index-carte-titre">
+                                {recette.data.titre}
+                            </div>
+                            <div class="index-carte-meta">
+                                {recette.data.personnes} personnes
+                            </div>
+                            <div class="index-carte-nb">
+                                {recette.data.ingredients.length} ingrédient
+                                {recette.data.ingredients.length > 1 ? "s" : ""}
+                            </div>
+                        </a>
+                    ))
+                }
+            </div>
+        </div>
+    </body>
+</html>

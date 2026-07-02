@@ -1,0 +1,57 @@
+---
+interface Ingredient {
+  nom: string;
+  quantite?: string;
+}
+
+interface Props {
+  titre: string;
+  personnes?: number;
+  ingredients?: Ingredient[];
+  slug?: string;
+}
+
+const { titre, personnes = 50, ingredients = [], slug } = Astro.props;
+---
+
+<article class="fiche" id={slug}>
+  <header class="fiche-header">
+    <div class="fiche-header-inner">
+      <h2 class="fiche-titre">{titre}</h2>
+      <span class="fiche-personnes">{personnes} personnes</span>
+    </div>
+  </header>
+
+  <div class="fiche-corps">
+    <section class="fiche-ingredients">
+      <h3 class="section-label">Ingrédients</h3>
+      {ingredients.length > 0 ? (
+        <ul class="liste-ingredients">
+          {ingredients.map((ing) => (
+            <li class="ingredient-ligne">
+              <span class="ing-nom">{ing.nom}</span>
+              {ing.quantite && <span class="ing-qty">{ing.quantite}</span>}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="vide">Aucun ingrédient renseigné</p>
+      )}
+    </section>
+
+    <section class="fiche-preparation">
+      <h3 class="section-label">Préparation</h3>
+      <div class="prep-contenu">
+        <slot>
+          <div class="prep-lignes">
+            <div class="prep-ligne"></div>
+            <div class="prep-ligne"></div>
+            <div class="prep-ligne"></div>
+            <div class="prep-ligne"></div>
+            <div class="prep-ligne"></div>
+          </div>
+        </slot>
+      </div>
+    </section>
+  </div>
+</article>

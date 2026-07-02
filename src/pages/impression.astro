@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import FicheRecette from '../components/FicheRecette.astro';
+import '../styles/global.css';
+
+const recettes = await getCollection('recettes');
+recettes.sort((a, b) => a.data.titre.localeCompare(b.data.titre, 'fr'));
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impression — Fiches Recettes</title>
+</head>
+<body>
+  <div class="nav-barre no-print">
+    <h1>📋 Fiches Recettes</h1>
+    <nav>
+      <a href="/">← Retour</a>
+      <button class="btn-imprimer" onclick="window.print()">
+        🖨 Imprimer toutes les fiches
+      </button>
+    </nav>
+  </div>
+
+  <div class="conteneur">
+    {recettes.map(async (recette) => {
+      const { Content } = await recette.render();
+      return (
+        <FicheRecette
+          titre={recette.data.titre}
+          personnes={recette.data.personnes}
+          ingredients={recette.data.ingredients}
+          slug={recette.slug}
+        >
+          <Content />
+        </FicheRecette>
+      );
+    })}
+  </div>
+</body>
+</html>

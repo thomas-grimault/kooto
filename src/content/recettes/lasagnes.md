@@ -1,0 +1,31 @@
+---
+titre: "Lasagnes"
+personnes: 70
+categorie: plat
+ingredients:
+  - nom: "Bouillon de légume"
+    quantite: "200 g"
+  - nom: "Blette"
+    quantite: "4 kg"
+  - nom: "Huile d'olive"
+    quantite: "1 l"
+  - nom: "Épinard"
+    quantite: "12 kg"
+  - nom: "Sauce tomate"
+  - nom: "Oignon"
+    quantite: "1,5 kg"
+  - nom: "Fromage frais"
+    quantite: "3 kg"
+  - nom: "Tamari"
+    quantite: "20 cl"
+  - nom: "Rapé"
+    quantite: "1 kg"
+  - nom: "Pâtes à lasagne normale"
+    quantite: "5 sachets"
+  - nom: "Pate à lasagne sans gluten"
+    quantite: "1 sachet"
+  - nom: "Roquette"
+    quantite: "1,5 kg"
+  - nom: "Persil"
+    quantite: "2 bottes"
+---
