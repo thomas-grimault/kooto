@@ -116,7 +116,7 @@ body {
 }
 
 .fiche-header {
-    background: var(--vert);
+    background: var(--vert-clair);
     padding: 1.25rem 1.75rem;
 }
 
@@ -131,15 +131,15 @@ body {
     font-family: var(--font-titre);
     font-size: 1.5rem;
     font-weight: normal;
-    color: white;
+    color: var(--vert);
     letter-spacing: 0.01em;
 }
 
 .fiche-personnes {
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--vert);
     white-space: nowrap;
-    border: 1px solid rgba(255, 255, 255, 0.35);
+    border: 1px solid var(--vert);
     padding: 0.2rem 0.6rem;
     border-radius: 20px;
 }
@@ -321,7 +321,7 @@ body {
     }
 
     .fiche-header {
-        background: #2a6b3f !important;
+        background: var(--vert-clair) !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
         padding: 1rem 1.5rem;
