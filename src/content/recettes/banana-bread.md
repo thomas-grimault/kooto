@@ -1,6 +1,6 @@
 ---
 titre: "Banana Bread"
-personnes: 20
+personnes: 24
 categorie: dessert
 ingredients:
   - nom: "Bananes"

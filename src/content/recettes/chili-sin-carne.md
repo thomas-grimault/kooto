@@ -1,0 +1,32 @@
+---
+titre: "Chili Sin Carne"
+personnes: 25
+categorie: plat
+ingredients:
+  - nom: "Maïs"
+    quantite: "1 boite"
+  - nom: "Oignon"
+    quantite: "2 kg"
+  - nom: "Haricot rouge sec en vrac"
+    quantite: "1,125 kg"
+  - nom: "Coulis de tomate"
+    quantite: "1 l"
+  - nom: "Tomate"
+    quantite: "3 kg"
+  - nom: "Aïl"
+    quantite: "1 tête"
+  - nom: "Jus de citron vert"
+    quantite: "0,025 l"
+  - nom: "Huile d'olive"
+    quantite: "0,025 l"
+  - nom: "Carotte"
+    quantite: "1,25 kg"
+  - nom: "Céleri branche"
+    quantite: "1 botte"
+  - nom: "Riz blanc basmati"
+    quantite: "1,75 kg"
+  - nom: "Pilipili"
+    quantite: "1"
+  - nom: "Persil"
+    quantite: "1 botte"
+---

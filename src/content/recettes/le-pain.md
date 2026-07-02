@@ -14,9 +14,9 @@ ingredients:
   - nom: "Farine"
     quantite: "900 g"
   - nom: "Panilev"
-    quantite: "50-60 g"
+    quantite: "35 g"
 ---
 
 1. Mettre les ingrédients dans l'ordre indiqué.
 2. Programme pain complet, 1,5 kg, bien cuit.
-3. Possibilité de rajouter des graines torréfiées lorsque la machine bipe la première fois.
+3. Possibilité de rajouter des graines torréfiées lorsque la machine "bip".

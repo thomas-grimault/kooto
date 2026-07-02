@@ -1,0 +1,32 @@
+---
+titre: "Couscous"
+personnes: 66
+categorie: plat
+ingredients:
+  - nom: "Boeuf"
+    quantite: "5,28 kg"
+  - nom: "Merguez"
+    quantite: "66 pièces"
+  - nom: "Semoule demi-complet"
+    quantite: "4 kg"
+  - nom: "Carotte"
+    quantite: "2 kg"
+  - nom: "Tomate"
+    quantite: "6,5 kg"
+  - nom: "Courgette"
+    quantite: "6,5 kg"
+  - nom: "Harissa"
+    quantite: "1 petit pot"
+  - nom: "Navet"
+    quantite: "3,5 kg"
+  - nom: "Oignon jaune"
+    quantite: "5 kg"
+  - nom: "Pois chiche"
+    quantite: "1 kg"
+  - nom: "Aïl"
+    quantite: "2 têtes"
+  - nom: "Raisin sec"
+    quantite: "0,6 kg"
+  - nom: "Poivron"
+    quantite: "1 kg"
+---

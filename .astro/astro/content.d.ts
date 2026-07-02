@@ -148,9 +148,44 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"boeuf-cidre.md": {
+	id: "boeuf-cidre.md";
+  slug: "boeuf-cidre";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"boudin-poire.md": {
+	id: "boudin-poire.md";
+  slug: "boudin-poire";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"brandade-morue.md": {
+	id: "brandade-morue.md";
+  slug: "brandade-morue";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "burritos.md": {
 	id: "burritos.md";
   slug: "burritos";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"camembert-rôti.md": {
+	id: "camembert-rôti.md";
+  slug: "camembert-rôti";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"carotte-orange.md": {
+	id: "carotte-orange.md";
+  slug: "carotte-orange";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
@@ -169,9 +204,37 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"champignon-creme.md": {
+	id: "champignon-creme.md";
+  slug: "champignon-creme";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"chili-sin-carne.md": {
+	id: "chili-sin-carne.md";
+  slug: "chili-sin-carne";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"choripate.md": {
+	id: "choripate.md";
+  slug: "choripate";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "chutney.md": {
 	id: "chutney.md";
   slug: "chutney";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"coleslaw.md": {
+	id: "coleslaw.md";
+  slug: "coleslaw";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
@@ -183,9 +246,23 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"concombre-coco.md": {
+	id: "concombre-coco.md";
+  slug: "concombre-coco";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "cookies.md": {
 	id: "cookies.md";
   slug: "cookies";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"couscous.md": {
+	id: "couscous.md";
+  slug: "couscous";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
@@ -253,6 +330,13 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"mafé-légumes.md": {
+	id: "mafé-légumes.md";
+  slug: "mafé-légumes";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "moussaka-vegetarienne.md": {
 	id: "moussaka-vegetarienne.md";
   slug: "moussaka-vegetarienne";
@@ -263,6 +347,13 @@ declare module 'astro:content' {
 "mousse-chocolat.md": {
 	id: "mousse-chocolat.md";
   slug: "mousse-chocolat";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"pate-ratatouille.md": {
+	id: "pate-ratatouille.md";
+  slug: "pate-ratatouille";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
@@ -288,6 +379,13 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"potatoes.md": {
+	id: "potatoes.md";
+  slug: "potatoes";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "risotto-epeautre.md": {
 	id: "risotto-epeautre.md";
   slug: "risotto-epeautre";
@@ -298,6 +396,13 @@ declare module 'astro:content' {
 "salade-grecque.md": {
 	id: "salade-grecque.md";
   slug: "salade-grecque";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"salade-pdt.md": {
+	id: "salade-pdt.md";
+  slug: "salade-pdt";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
@@ -316,6 +421,13 @@ declare module 'astro:content' {
   collection: "recettes";
   data: InferEntrySchema<"recettes">
 } & { render(): Render[".md"] };
+"tajine.md": {
+	id: "tajine.md";
+  slug: "tajine";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
 "tartiflette.md": {
 	id: "tartiflette.md";
   slug: "tartiflette";
@@ -326,6 +438,13 @@ declare module 'astro:content' {
 "tartinade-oignon.md": {
 	id: "tartinade-oignon.md";
   slug: "tartinade-oignon";
+  body: string;
+  collection: "recettes";
+  data: InferEntrySchema<"recettes">
+} & { render(): Render[".md"] };
+"veloute-courgette.md": {
+	id: "veloute-courgette.md";
+  slug: "veloute-courgette";
   body: string;
   collection: "recettes";
   data: InferEntrySchema<"recettes">
